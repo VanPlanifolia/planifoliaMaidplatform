@@ -46,7 +46,7 @@ public class MaidAutoConfiguration {
      */
     @Bean
     public MaidModelBuilder maidModelBuilder(MaidProperties maidProperties){
-        log.info("MaidPlatform-开始装配请求构建器");
+        log.info("MaidPlatform-开始装配请求构建器。");
         return new MaidModelBuilder(maidProperties);
     }
 
